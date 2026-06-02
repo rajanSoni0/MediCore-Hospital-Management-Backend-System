@@ -1,0 +1,35 @@
+2026-05-30 18:52:52.238 [main] INFO  com.hospital.HospitalManagementApplication - Starting HospitalManagementApplication using Java 17.0.12 with PID 21332 (C:\Users\hp\Desktop\hospital-management-system\build\classes\java\main started by hp in C:\Users\hp\Desktop\hospital-management-system)
+2026-05-30 18:52:52.256 [main] DEBUG com.hospital.HospitalManagementApplication - Running with Spring Boot v3.2.4, Spring v6.1.5
+2026-05-30 18:52:52.259 [main] INFO  com.hospital.HospitalManagementApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-30 18:52:56.318 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-30 18:52:56.323 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-30 18:52:56.324 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2026-05-30 18:52:56.488 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-05-30 18:52:57.994 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-30 18:52:58.457 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e40fdbd
+2026-05-30 18:52:58.461 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-30 18:53:02.455 [main] DEBUG com.hospital.security.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+2026-05-30 18:53:05.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-05-30 18:53:05.543 [main] INFO  com.hospital.HospitalManagementApplication - Started HospitalManagementApplication in 14.325 seconds (process running for 17.771)
+2026-05-30 18:53:05.549 [main] INFO  com.hospital.HospitalManagementApplication - =========================================================
+2026-05-30 18:53:05.550 [main] INFO  com.hospital.HospitalManagementApplication -   Hospital Management System started successfully
+2026-05-30 18:53:05.550 [main] INFO  com.hospital.HospitalManagementApplication -   API available at: http://localhost:8080/api
+2026-05-30 18:53:05.551 [main] INFO  com.hospital.HospitalManagementApplication - =========================================================
+2026-05-30 18:53:45.104 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-30 18:53:45.166 [http-nio-8080-exec-1] WARN  com.hospital.security.JwtAuthEntryPoint - Unauthorized access attempt on [/api]: Full authentication is required to access this resource
+2026-05-30 18:53:45.680 [http-nio-8080-exec-2] WARN  com.hospital.security.JwtAuthEntryPoint - Unauthorized access attempt on [/favicon.ico]: Full authentication is required to access this resource
+2026-05-30 19:01:00.546 [http-nio-8080-exec-6] DEBUG com.hospital.auth.AuthController - POST /api/auth/register for email=rajan@hospital.com
+2026-05-30 19:01:00.639 [http-nio-8080-exec-6] INFO  com.hospital.auth.AuthService - Registering new user: email=rajan@hospital.com, role=ADMIN
+2026-05-30 19:01:01.864 [http-nio-8080-exec-6] INFO  com.hospital.auth.AuthService - User registered successfully: id=1, role=ADMIN
+2026-05-30 19:02:40.779 [http-nio-8080-exec-9] DEBUG com.hospital.auth.AuthController - POST /api/auth/login for email=rajan@hospital.com
+2026-05-30 19:02:40.781 [http-nio-8080-exec-9] INFO  com.hospital.auth.AuthService - Login attempt: email=rajan@hospital.com
+2026-05-30 19:02:42.208 [http-nio-8080-exec-9] INFO  com.hospital.auth.AuthService - Login successful: email=rajan@hospital.com, role=ADMIN
+2026-05-30 19:14:01.754 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s826ms862탎700ns).
+2026-05-30 19:52:59.178 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m56s780ms307탎500ns).
+2026-05-30 20:36:10.177 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m10s353ms337탎100ns).
+2026-05-30 20:51:29.110 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m18s600ms138탎299ns).
+2026-05-30 21:30:00.190 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m960ms107탎).
+2026-05-30 21:33:10.363 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m10s168ms477탎500ns).
+2026-05-30 22:26:01.705 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m50s358ms524탎).
+2026-05-30 23:14:24.968 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m50s597ms892탎600ns).
+2026-05-30 23:42:18.349 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m22s922ms751탎500ns).
